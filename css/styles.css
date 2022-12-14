@@ -89,6 +89,24 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*************************************************/
+.hanSans {
+  font-family: 'Black Han Sans', sans-serif;
+}
+.notoSans {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.doHyeon {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.nanumGothic {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.gothic {
+  font-family: 'Gothic A1', sans-serif;
+}
+/*************************************************/
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -11369,13 +11387,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #000000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #000000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11397,11 +11415,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: rgba(149, 0, 0, 0.55);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: rgba(149, 0, 0, 0.55);
   }
 
   #mainNav.navbar-shrink {
@@ -11472,7 +11490,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(71, 71, 71, 0.69);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
